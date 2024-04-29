@@ -1,0 +1,21 @@
+{
+    "out_dir": "",
+    "python_module_name": "main",
+    "build-version": "1.0.0",
+    "project_name": "Word and Number",
+    "project_description": "",
+    "product_name": "{{ cookiecutter.project_name }}",
+    "org_name": "com.I221",
+    "author": "AGV",
+    "company_name": "I221",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "copyright": "Copyright (c) 2023 I221",
+    "sep": "/",
+    "kotlin_dir": "{{ cookiecutter.org_name.replace('.', cookiecutter.sep) }}{{ cookiecutter.sep }}{{ cookiecutter.project_name }}{{ cookiecutter.sep }}",
+    "hide_loading_animation": true,
+    "team_id": "",
+    "base_url": "/",
+    "route_url_strategy": "path",
+    "web_renderer": "canvaskit",
+    "use_color_emoji": "false"
+}
